@@ -1,0 +1,13 @@
+{
+  "name": "ChessAPI",
+  "description": "An API for chess games, positions, and moves",
+  "author": "Mark Wardle",
+  "version": "0.0.1",
+  "license": "UNLICENSED",
+  "controllers": {"/position": "controller/positionController.js"},
+  "scripts": {
+    "setup": "scripts/setup.js",
+    "teardown": "scripts/teardown.js"
+  },
+  "tests": "test/**/*.js"
+}
